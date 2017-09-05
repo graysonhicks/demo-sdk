@@ -13,7 +13,7 @@ var userData = {
 // CREATE
 var user = new API.Users();
 user
-	.create(userId, userData)
+	.create(userData)
 	.done(function(res) {
 		console.log(res, "User created!");
 	})

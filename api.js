@@ -3,7 +3,7 @@
 */
 // IIFE to define and return API object
 var API = (function(self) {
-	// ajax object to hold native Deferred and $.ajax methods for use below
+	// ajax object to hold native Deferred and $.ajax methods for use below, it is not returned, only available within API
 	var $ajax = {};
 
 	$ajax.post = function(url, params) {
